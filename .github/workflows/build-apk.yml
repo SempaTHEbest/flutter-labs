@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        lab: [lab6, lab7, lab8]
+        lab: [lab6, lab7, lab8, lab9]
     steps:
       - uses: actions/checkout@v5
       - uses: actions/setup-java@v5
